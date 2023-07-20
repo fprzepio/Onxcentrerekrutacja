@@ -1,7 +1,9 @@
-# Onxcentrerekrutacja rozwinięcie treści zadań
+# OnxCenter rekrutacja - rozwinięcie treści zadań
 
-Zadanie związane z PHP:
-______ 1 zadanie
+**Zadanie związane z PHP:**
+
+**______ 1 zadanie**
+```
   W ramach przetwarzania danych należy ukończyć implementację metody “make” klasy Pipeline.
   Metoda “make” powinna przyjmować zmienną liczbę funkcji i zwracać nową funkcję, która przyjmuje
   jeden parametr $arg.
@@ -12,7 +14,9 @@ ______ 1 zadanie
   Na przykład wywołanie make(function($var) { return $var * 3; }, function($var) { return $var + 1; },
   function($var) { return $var / 2; }), a następnie wywołanie zwróconej funkcji z argumentem 3
   powinno zwrócić 5.
-_______ 2 zadanie
+```
+**_______ 2 zadanie**
+```
   Interfejs użytkownika zawiera dwa rodzaje kontrolek wprowadzania danych: TextInput, który
   akceptuje wszystkie teksty oraz NumericInput, który akceptuje tylko cyfry.
   Zaimplementuj klasę TextInput, która zawiera:
@@ -20,7 +24,9 @@ _______ 2 zadanie
   Metodę publiczną getValue() - zwracającą bieżącą wartość (string).
   Zaimplementuj klasę NumericInput, która: Dziedziczy po TextInput. Przedefiniowuje metodę add tak,
   aby każdy tekst nienumeryczny był ignorowany.
-_______ 3 zadanie
+```
+**_______ 3 zadanie**
+```
   Klasa RankingTable śledzi wyniki każdego gracza w lidze. Po każdej grze, gracz zapisuje swój wynik za
   pomocą funkcji recordResult().
   Ranking gracza w lidze jest obliczany zgodnie z następującą logiką:
@@ -38,7 +44,9 @@ _______ 3 zadanie
   Wszyscy gracze mają taki sam wynik. Jednak Maks i Monika rozegrali mniej gier niż Jan, a ponieważ
   Monika znajduje się przed Maks na liście graczy, jest on sklasyfikowany jako pierwszy. Dlatego
   powyższy kod powinien zwrócić "Monika".
-_______ 4 zadanie
+```
+**_______ 4 zadanie**
+```
   Jeden z rodzajów słownika, czyli tezaurus, zawiera słowa i ich synonimy. Poniżej znajduje się przykład
   struktury danych, która definiuje tezaurus:
   array("market" => array("trade"), "small" => array("little", "compact"))
@@ -49,3 +57,4 @@ _______ 4 zadanie
   podczas gdy wywołanie z słowem, dla którego nie ma synonimów, np. $thesaurus-
   >getSynonyms("asleast") powinno zwrócić:
   '{"word":"asleast","synonyms":[]}'
+```
