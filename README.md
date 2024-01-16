@@ -57,35 +57,4 @@
   podczas gdy wywołanie z słowem, dla którego nie ma synonimów, np. $thesaurus-
   >getSynonyms("asleast") powinno zwrócić:
   '{"word":"asleast","synonyms":[]}'
-```
-**Zadania dotyczące Laravela**
-```
-1. Pobierz informacje na temat klienta, pracownika, który jest do niego przypisany oraz
-zamówień - jakie rzeczy ostatnio kupił. Model klienta jest powiązany kluczami z pozostałymi,
-więc informacje są do uzyskania poprzez relację. Do wykonania tego zadania pracuj na
-Eloquent ORM.
-2. Wielu użytkowników może mieć wiele samochód w firmie. Stwórz relację, która pozwala
-przypisywać użytkownika do auta i weryfikować czy korzysta on z tego auta w danym
-momencie.
-3. Stwórz Test HTTP, który będzie weryfikował poprawność tworzenia, wyświetlania, edycji i
-usuwania pojazdów, klientów oraz pracowników. Oczekujemy poprawnych odpowiedzi, więc
-trzeba stworzyć pełną logikę działania.
-4. Stwórz system notyfikacji - gdy użytkownik zostaje przypisany do pojazdu, wyślij notyfikację
-do niego oraz do administratora systemu, że samochód został przypięty. W momencie, gdy
-użytkownik zostanie dezaktywowany, również powinien dostać stosowną informację.
-```
-**Zadania dotyczące Vue**
-```
-1. Z poziomu frontendu pobierz informację na temat klienta, przygotuj listę klientów oraz
-podgląd konkretnego klienta ze wszystkimi informacjami na jego temat - pracownik który do
-niego przypisany, ostatnio kupione rzeczy oraz ile łącznie wydał na zakupy. Też wyświetl
-samochód który posiada klient. Musisz odpowiednio przygotować routing po stronie
-frontendu.
-2. Przygotuj zarządzanie klientem - dodawanie, usuwanie, edycję. Podczas dodawania/update
-musisz odpowiednio dokonać walidacje wprowadzonych danych
-3. Przy liście klientów przygotuj paginację, sortowanie filtrację oraz wyszukiwanie
-4. Utwórz prostą autentykacje oraz zapisz globalnie dane o użytkowniku w aplikacji. Użyj do
-tego Pinii
-5. Przepisz poniższy fragment kodu na bardziej czytelny zapis
-arrA.filter(x => !arrB.includes(x)).concat(arrB.filter(x => !arrA.includes(x))
-```
+
